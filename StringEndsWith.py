@@ -16,3 +16,5 @@ def solution(text, ending):
         if not text[spot] == ending[spot]:
             return False
     return True
+
+# endswith exists, oops
